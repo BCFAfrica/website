@@ -47,7 +47,7 @@ ul {
 }
 
 li {
-  color: #626262;
+  color: #505050;
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -1307,7 +1307,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 --------------------------------------------------------------*/
 .footer {
   background: #2a2c30;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .footer .footer-logo .navbar-brand {
@@ -1331,22 +1331,25 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 .footer .list-menu > h4 {
   color: #fff;
-  padding-bottom: 20px;
+
+  padding-top: 5px;
+  padding-left: 35px;
+  padding-bottom: 5px;
 }
 
 .footer .list-menu ul li a {
   color: #fff;
   font-size: 12px;
-  padding-left: 5px;
+  padding-left: 35px;
   text-decoration: none;
   letter-spacing: 0;
 }
 
 .footer .copyrights {
   background: #fff;
-  margin-top: 50px;
-  text-align: center;
-  padding: 25px;
+  margin-top: 0px;
+  text-align: left;
+  padding: 10px;
 }
 
 .footer .copyrights p, .footer .copyrights .credits {
@@ -1360,5 +1363,5 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 .footer .copyrights p a, .footer .copyrights .credits a {
   letter-spacing: 0;
-  color: #71c55d;
+  color: #505050;
 }
