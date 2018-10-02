@@ -1306,8 +1306,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: #2a2c30;
-  padding-top: 20px;
+  background: #2a2c40;
+  padding-top: 30px;
 }
 
 .footer .footer-logo .navbar-brand {
@@ -1346,10 +1346,10 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 .footer .copyrights {
-  background: #fff;
+  background: #2a2c39;
   margin-top: 0px;
   text-align: left;
-  padding: 10px;
+  padding: 5px;
 }
 
 .footer .copyrights p, .footer .copyrights .credits {
@@ -1358,10 +1358,11 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-size: 14px;
+  color: #fff;
   letter-spacing: 0;
 }
 
 .footer .copyrights p a, .footer .copyrights .credits a {
   letter-spacing: 0;
-  color: #505050;
+  color: #fff;
 }
