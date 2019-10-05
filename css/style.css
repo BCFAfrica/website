@@ -109,7 +109,7 @@ span {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #71c55d;
+  background: #242cb0;
   line-height: 1;
   color: #fff;
   padding: 7px 12px 13px 12px;
@@ -172,7 +172,7 @@ span {
 }
 
 #header #logo h1 a span {
-  color: #71c55d;
+  color: #242cb0;
 }
 
 #header #logo img {
@@ -373,7 +373,7 @@ span {
   text-decoration: none;
   display: inline-block;
   color: #555;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   outline: none;
@@ -1064,7 +1064,12 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #blog .block-blog img {
-  width: 100%;
+
+max-height: 300px;
+
+max-width: 300px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 #blog .block-blog .content-blog {
@@ -1367,3 +1372,60 @@ body.mobile-nav-active #mobile-nav-toggle i {
   letter-spacing: 0;
   color: #fff;
 }
+
+
+
+#mailchimp {
+	background: #f8f8f8;
+	color: #3D6392;
+	padding: 20px 15px;
+}
+#mailchimp  h2 {
+    color: #505050;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+      margin-top: 25px;
+    text-transform: capitalize;
+  }
+
+	#mailchimp input {
+		 border: medium none;
+    color: gray;
+    font-family:  'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 0px;
+
+    padding: 8px 10px;
+    width: 300px;
+		border-radius: 0px;
+	}
+		#mailchimp input.email {
+      background: #fff
+     }
+		#mailchimp input.name { background: #fff}
+		#mailchimp input[type="submit"] {
+			background: #115B87;
+			color: #fff;
+			cursor: pointer;
+			font-size: 15px;
+			width: 120px;
+			padding: 8px 0;
+	border-radius: 0px;
+		}
+			#mailchimp input[type="submit"]:hover { color: #F2C94C }
+
+
+
+  #mc-embedded-subscribe-form input.button {
+    background: #115B87;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    width: 120px;
+    padding: 8px 0;
+  border-radius: 0px;
+
+  }
