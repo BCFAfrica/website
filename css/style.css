@@ -19,13 +19,13 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   color: #000;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 h4 {
   color: #000;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
   line-height: 2;
@@ -38,7 +38,6 @@ h5 {
 }
 
 a {
-  color: #888;
   letter-spacing: 2px;
   text-decoration: none;
 }
@@ -82,10 +81,11 @@ span {
 
 .btn {
   border: 1px solid #fff;
-  border-radius: 50px;
+  border-radius: 5px;
   color: #fff;
+  background: #444;
   font-size: 11px;
-  font-weight: 400;
+  font-weight: 600;
   padding: 15px 40px;
   text-transform: uppercase;
   -moz-transition: all 0.5s ease-in-out 0s;
@@ -97,7 +97,7 @@ span {
 
 .btn-default:hover {
   color: #fff;
-  background-color: #e6e6e6;
+  background-color: #555;
   border-color: #adadad;
 }
 
@@ -109,7 +109,7 @@ span {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #888;
+  background: #242cb0;
   line-height: 1;
   color: #fff;
   padding: 7px 12px 13px 12px;
@@ -159,20 +159,20 @@ span {
   color: #505050;
   font-family: "Open Sans", sans-serif;
   font-size: 26px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 1px;
   margin: 0;
 }
 
 #header #logo h1 a {
-  color: #888;
+  color: #555;
   line-height: 1;
   display: inline-block;
   text-decoration: none;
 }
 
 #header #logo h1 a span {
-  color: #2F68B9;
+  color: #242cb0;
 }
 
 #header #logo img {
@@ -218,8 +218,8 @@ span {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 45px;
-  font-weight: 300;
+  font-size: 48px;
+  font-weight: 200;
   line-height: 56px;
   font-family: "Open Sans", sans-serif;
   color: #505050;
@@ -236,7 +236,7 @@ span {
   color: #777;
   margin-bottom: 30px;
   font-size: 20px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
 
@@ -249,24 +249,22 @@ span {
 }
 
 #hero img {
-  max-height: 300px;
-  max-width: 95%;
+  max-width: 280px;
   margin-bottom: 30px;
 }
 
 #hero .btn-get-started {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 13px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 11px 36px;
-  border-radius: 50px;
+  border-radius: 5px;
   transition: 0.5s;
   margin-bottom: 30px;
-  border: 2px solid #888;
-  border-radius: 5px;
+  border: 1px solid #71c55d;
   background: #fff;
   color: #71c55d;
   text-decoration: none;
@@ -375,7 +373,7 @@ span {
   text-decoration: none;
   display: inline-block;
   color: #555;
-  font-family: "open sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   outline: none;
@@ -572,7 +570,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 .separator {
   color: #626262;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 300;
   margin-bottom: 30px;
@@ -632,7 +630,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #about-us .about-content {
-  padding-top: 60px;
+  padding-top: 0px;
 }
 
 #about-us .about-content h2 {
@@ -853,7 +851,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 --------------------------------*/
 #team .team-block {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
-  height: 254px;
+  height: 310px;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -873,8 +871,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
   background: #fff none repeat scroll 0 0;
   bottom: 0;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
-  bottom: -147px;
-  padding: 20px 0;
+  bottom: -230px;
+  padding: 5px 0;
   position: absolute;
   width: 100%;
   transition: all 0.5s ease-in-out 0s;
@@ -907,9 +905,9 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #team .team-block .team-content ul > span {
   display: inline-block;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 100;
   letter-spacing: 0.5px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   text-transform: uppercase;
 }
 
@@ -937,7 +935,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #testimonials .top-top > h2 {
-  font-family: "open sans" sans-serif;
+  font-family: "Roboto" sans-serif;
   font-size: 45px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -1066,20 +1064,25 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #blog .block-blog img {
-  width: 100%;
+
+max-height: 300px;
+
+max-width: 300px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 #blog .block-blog .content-blog {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
   display: inline-block;
   min-height: 125px;
-  padding: 20px 10px;
+  padding: 10px 10px;
   width: 100%;
 }
 
 #blog .block-blog .content-blog h4 {
   line-height: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-transform: capitalize;
   font-weight: normal;
   letter-spacing: 0;
@@ -1114,6 +1117,9 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #blog .block-blog .content-blog a.readmore:hover {
   color: #71c55d;
 }
+
+
+
 
 /* Newsletter Section
 --------------------------------*/
@@ -1309,8 +1315,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: #2a2c30;
-  padding-top: 50px;
+  background: #2a2c40;
+  padding-top: 30px;
 }
 
 .footer .footer-logo .navbar-brand {
@@ -1334,7 +1340,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 .footer .list-menu > h4 {
   color: #fff;
-  padding-bottom: 20px;
+
+  padding-bottom: 5px;
 }
 
 .footer .list-menu ul li a {
@@ -1346,10 +1353,10 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 .footer .copyrights {
-  background: #fff;
-  margin-top: 50px;
-  text-align: center;
-  padding: 25px;
+  background: #2a2c39;
+  margin-top: 0px;
+  text-align: left;
+  padding: 5px;
 }
 
 .footer .copyrights p, .footer .copyrights .credits {
@@ -1358,13 +1365,15 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-size: 14px;
+  color: #fff;
   letter-spacing: 0;
 }
 
 .footer .copyrights p a, .footer .copyrights .credits a {
   letter-spacing: 0;
-  color: #71c55d;
+  color: #fff;
 }
+
 
 
 #mailchimp {
